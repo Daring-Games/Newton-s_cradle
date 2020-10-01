@@ -1,0 +1,76 @@
+/*______________________________________________________
+------------ CSS FILE TO DESIGN THE WEBPAGE ------------
+== Created by Sameer Karna (Student of WhiteHat Jr.) ==
+______________CREATED ON 1st OCTOBER 2020_______________
+
+- - - - - - - - - Copyright (c) 2020 - - - - - - - - - -
+
+ The permission to view and handle this game is hereby 
+               granted to all viewers. 
+
+ The above Copyright also disallows the viewers to copy
+   this code. If any copied version is published then 
+            the viewer will be charged.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+~~~~~ The below CLASS file comes under NEWTON's CRADLE project ~~~~~
+~~~~      The viewer is restricted from copying any content     ~~~~
+
+*/  
+
+
+  /* This specifies the margins and the background colour */
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-image: url("science.jpg");
+      background-repeat: no-repeat;
+      background-color: black;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+  /* This has all the properties for the output of the canvas */
+    canvas {
+      display: block;
+      border: 5px solid rgb(88, 189, 192);
+      position: center;
+      margin: auto;
+      padding: auto;
+      border-radius: 25px;
+    }
+
+  /* Class for creating a button and its properties */
+    .button{
+      background-color: rgb(34, 69, 92);
+      text-align: center;
+      cursor: pointer;
+      border: none;
+      margin: 5px 5px;
+      padding: 15px 32px;
+      font-family: Bembo;
+      color: white;
+      font-size: 16px;
+      }
+
+  /* Class for creating a 3D effect when a button is pressed over it */
+    .button:hover{
+      box-shadow: 2px 12px 20px rgb(89, 230, 255);
+      }
+
+  /* Class for restricting the viewer to copy the content of the WebPage  */
+    .unselectable {
+      -webkit-user-select: none;
+      -webkit-touch-callout: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      color: #cc0000;
+    }
+
+
+    
+/*===================================
+----------- CSS FILE END ------------
+====================================*/
